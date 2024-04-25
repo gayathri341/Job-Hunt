@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <title>JobHunt</title>
+  <link rel="icon" href="job.png" type="image/x-icon">
+</head>
+<body>
+   <!--header section-->
+   <header>
+    <div class="container1">
+      
+      <nav>
+        <h1><strong><img id="i" src="/job.png" width="5%"></img>&nbsp;&nbsp;JobHunt</strong></h1>
+        <ul class="q">
+        <li><a class="q" href="home.html">Home</a></li>
+        <li><a class="q" href="JobsNearby.html">Jobs Nearby</a></li>
+        <li><a class="q" href="HirePeople.html" >Hire People</a></li>
+        <li><a class="q" href="Recent.html" >Recent</a></li>
+        <li><a class="q" href="Help.html">Help</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+<!--header section end-->
+
+<!--hello user section START-->
+<section class="hello">
+<h1 class="write">Hello Charlie</h1>
+<p class="para" >
+    "Welcome to JobHunt - Your Gateway to Success!<br>
+    Find your dream job effortlessly. Let's start your career journey today!"</p>
+
+</section>
+<!--hello user section END-->
+
+
+
+ <div class="container">
+
+    <!--SIDEBAR CONTENT START-->
+      <aside>
+        <!-- Section 1: Dashboard and Analytics -->
+        <h3>Dashboard</h3>
+        <ul>
+          <li><a href="home.html" ><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a></li>
+          <li><a href="#" class="active"><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Analytics</a></li>
+        </ul>
+      
+        <!-- Section 2: Reports, Settings, and Messages -->
+        <h3>Options</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-file-alt"></i> &nbsp;&nbsp;Reports</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i>&nbsp;&nbsp;Settings</a></li>
+          <li><a href="#"><i class="fas fa-calendar"></i>&nbsp;&nbsp;Calendar</a></li>
+        </ul>
+      
+        <!-- Section 3: Notifications, Calendar, and Tasks -->
+        <h3>Activities</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-bell"></i>&nbsp;&nbsp;Notifications</a></li>
+          <li><a href="#"><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Earnings</a></li>
+          <li><a href="#"><i class="fas fa-tasks"></i>&nbsp;&nbsp;Tasks</a></li>
+        </ul>
+      
+        <!-- Other Links -->
+        <h3>Other Links</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-users"></i>&nbsp;&nbsp;Users</a></li>
+          <li><a href="Profile.html"><i class="fas fa-user"></i>&nbsp;&nbsp;Profile</a></li>
+          <li><a href="#"><i class="fas fa-question-circle"></i>&nbsp;&nbsp;Help</a></li>
+          <li><a href="#"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Logout</a></li>
+        </ul>
+      </aside>
+      
+    <!--SIDEBAR CONTENT END-->
+
+
+
+  <!-- CONTENT BELOW CHART-->
+
+    <main>
+      <section class="charts">
+        <h2>Performance</h2>
+        <canvas id="myChart" ></canvas>
+      </section>
+
+
+    <div class="r">
+
+      <div class="jobs-done-section">
+        <h2>Jobs Done</h2>
+        <div class="job-progress">
+          
+          <div class="job-progress-item">
+            <div class="job-title"> Grocery Store Cashier</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 20%;"></div>
+            </div>
+            <div class="progress-label">20%</div>
+          </div>
+
+
+          <div class="job-progress-item">
+            <div class="job-title">Hotel clerks</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 50%;"></div>
+            </div>
+            <div class="progress-label">50%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Child Care</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%;"></div>
+            </div>
+            <div class="progress-label">70%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Bartenders</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 25%;"></div>
+            </div>
+            <div class="progress-label">25%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Restaurant Servers</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 50%;"></div>
+            </div>
+            <div class="progress-label">50%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">General Cleaning in Store</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 34%;"></div>
+            </div>
+            <div class="progress-label">34%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Dishwasher</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+            <div class="progress-label">80%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Receptionist</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 40%;"></div>
+            </div>
+            <div class="progress-label">40%</div>
+          </div>
+
+          <div class="job-progress-item">
+            <div class="job-title">Housekeeper</div>
+            <div class="progress-bar">
+              <div class="progress" style="width: 60%;"></div>
+            </div>
+            <div class="progress-label">60%</div>
+          </div>
+          <!-- Add more job progress items here -->
+        </div>
+      </div>
+      
+
+      <div class="badges-section">
+        <h2>Badges</h2>
+        <div class="badge-container">
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/6735/6735152.png" alt="Badge 1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/6889/6889466.png" alt="Badge 8">
+            <p class="b">Trailblazer</p>
+          </div>
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/9733/9733064.png" alt="Badge 1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/2387/2387679.png" alt="Badge 8">
+            <p class="b">Explorer</p>
+          </div>
+
+          
+   
+         
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/860/860548.png" alt="Badge 2">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/6889/6889466.png" alt="Badge 2">
+            <p class="b">Challenge Champion</p>
+          </div>
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/1170/1170611.png" alt="Badge 3">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/6889/6889466.png" alt="Badge 3">
+            <p class="b">Victory Vanguard</p>
+          </div>
+          
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/3287/3287000.png" alt="Badge 4">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/2387/2387679.png" alt="Badge 4">
+            <p class="b">Adventure Ace</p>
+          </div>
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/2822/2822329.png" alt="Badge 5">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/6889/6889466.png"  alt="Badge 5">
+            <p class="b">Exploration Expert</p>
+          </div>
+         
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/2178/2178227.png" alt="Badge 6">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/2387/2387679.png" alt="Badge 6">
+            <p class="b">Epic Endeavor</p>
+          </div>
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/3557/3557510.png" alt="Badge 7">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/6889/6889466.png" alt="Badge 7">
+            <p class="b">Conquest Connoissuer</p>
+          </div>
+          <div class="badge-item">
+            <img src="https://cdn-icons-png.flaticon.com/128/2671/2671474.png" alt="Badge 8">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img id="tick" src="https://cdn-icons-png.flaticon.com/128/2387/2387679.png" alt="Badge 8">
+            <p class="b">Ultimate Questor</p>
+          </div>
+          
+          <!-- Add more badge items here -->
+        </div>
+      </div>
+    </div>
+      </main>
+  <!--CONTETN BELOW CHART-->
+</div>
+
+
+
+
+   <!--Footer section-->
+   <footer>
+    
+    
+    <div class="z">
+      <div class="copyright">
+        <p>&copy; 2024 Your Job Search Platform. All rights reserved.</p>
+        <p>Privacy Policy | Terms</p>
+    
+        
+      </div>
+     </div>
+      </footer>
+      <!--footer section end-->
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>

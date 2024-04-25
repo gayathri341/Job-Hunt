@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobHunt</title>
+  <link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+  <header>
+    <div class="j">
+    <div class="contain">
+      
+      <nav>
+      <a class="jobhunt" href="home.html"><h1><img src="/job.png" width="18%"></img>&nbsp;&nbsp;JobHunt</h1></a>
+      </nav>
+    </div></div>
+      
+
+    <div class="l">
+        <div class="contain">
+          
+          <nav>
+            <button onclick="handleLogin()" id="loginButton" class="button1">Login</button>
+          </nav>
+        </div></div>
+          
+  </header>
+  <div class="container">
+    <h2>Personal Details</h2>
+    <div class="profile-container" id="profile-container">
+      <div class="profile-picture" id="profile-picture">
+        <img src="user.png">
+      </div>
+    </div>
+    <div>
+      <label for="profile-input" class="add-icon">
+        <img id="profile-picture" src="add.png" alt="Add Profile Picture">
+      </label>
+      <input type="file" id="profile-input" accept="image/*" style="display: none;">
+      
+    </div>
+  
+    <form id="personalDetailsForm">
+
+      
+      <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+
+      
+      <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+
+      
+      <input type="email" id="email" name="email" placeholder="Email" required>
+
+      
+      <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+
+
+      <textarea id="address" name="address"   placeholder="Address" required></textarea>
+
+      <label id="v" for="resume">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upload Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+  
+
+      <button class="button2" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="Profile.js"></script>
+
+   <!--Footer section-->
+   <footer>
+    
+    
+    <div class="z">
+      <div class="copyright">
+        <p>&copy; 2024 Your Job Search Platform. All rights reserved.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy | Terms</p>
+        
+    
+        
+      </div>
+     </div>
+      </footer>
+      <!--footer section end-->
+</body>
+</html>

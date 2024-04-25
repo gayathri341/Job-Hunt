@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url('https://media.istockphoto.com/id/1325276224/photo/colleagues-having-meeting-in-boardroom-businessman-giving-speech-blurred-photo.jpg?s=612x612&w=0&k=20&c=8hr1wBe8SClcas5jcH-TiVmbe_AcLfmwsr2wJntC2Ls=');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.login-container {
+    background-color: #dde9ed;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.5);
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+    height:400px;
+}
+
+h2 {
+    color: #1b1919;
+    margin-bottom: 20px;
+    font-size:28px;
+    font-weight:300;
+    font-family:Arial, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height:30px;
+    font-size: large;
+    
+}
+input[type="text"],
+input[type="password"]:hover{
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+button {
+    height:50px;
+    padding: 10px;
+    background-color: #4479b1;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width:100px;
+    transition: background-color 0.3s ease;
+    font-size:large;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #f00;
+    margin-bottom: 10px;
+}
+header {
+    
+    background-color: rgb(25, 53, 113);
+    padding: 0px;
+    height:fit-content;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin:0 auto;
+    margin-left:5%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  h1 {
+   
+    color:rgb(58, 208, 242);
+    font-size:30px;
+   
+   }
+   .jobhunt
+   {
+    text-decoration: none;
+   }
+   
+  
+  .copyright
+  {
+    background-color:transparent;
+    color:#ffffff;
+    align-items: center;
+    display: flex;
+    font-size:medium;
+    font-weight:200;
+    backdrop-filter: blur(15px);
+    flex-direction:column;
+    justify-content: center;
+    padding:15px;
+  }
+  .account
+  {
+    color:rgb(25, 53, 113);
+    text-decoration: none;
+    font-size:17px;
+  }
+  .h
+  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

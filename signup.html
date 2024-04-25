@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobHunt</title>
+  <link rel="icon" href="job.png" type="image/x-icon">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <div class="j">
+        <div class="container">
+          
+          <nav>
+          <a class="jobhunt" href="home.html"><h1><img src="/job.png" width="18%"></img>&nbsp;&nbsp;JobHunt</h1></a>
+          </nav>
+        </div></div>
+          
+
+        <div class="l">
+            <div class="container">
+              
+              <nav>
+                <button onclick="handleLogin()" id="loginButton" class="button1">Login</button>
+              </nav>
+            </div></div>
+              
+      </header>
+    <div class="signup-container">
+        <h2>&nbsp;&nbsp;&nbsp;Create Account</h2>
+        <form id="signup-form">
+            <div class="input-group">
+                
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <span class="error" id="username-error"></span>
+            </div>
+            <div class="input-group">
+                
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <span class="error" id="email-error"></span>
+            </div>
+            <div class="input-group">
+                
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <span class="error" id="password-error"></span>
+            </div>
+            <div class="input-group">
+            
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                <span class="error" id="confirm-password-error"></span>
+            </div>
+
+            <div>
+            <p>Already have an account
+            <span  ><a  class="already" href="login.html">Sign In</a></span></p> 
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terms-checkbox" name="terms" required>
+                <p>By creating an account you agree to our<span class="terms" > Terms of Service </span>and <span class="terms" >Privacy Policy</span></p>
+                <span class="error" id="terms-error"></span>
+            </div>
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="signup.js"></script>
+
+     <!--Footer section-->
+  <footer>
+    
+    
+    <div class="z">
+      <div class="copyright">
+        <p>&copy; 2024 Your Job Search Platform. All rights reserved.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy | Terms</p>
+        
+    
+        
+      </div>
+     </div>
+      </footer>
+      <!--footer section end-->
+</body>
+</html>

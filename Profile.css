@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/38/mesh-1430108_640.png" );
+  background-repeat: no-repeat;
+  background-size:cover;
+  }
+ 
+   
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    width:1000px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    margin-left:200px;
+    font-size:29px;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  input[type="text"],
+input[type="email"],
+input[type="tel"]  {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height:30px;
+    font-size: large;
+    margin-left:48px;
+    
+}
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%; height:30px;
+    font-size:large;
+    margin-left:48px;
+  }
+  
+  
+header {
+    
+  background-color: rgb(25, 53, 113);
+  padding: 0px;
+  height:fit-content;
+  justify-content: space-between;
+  display:flex;
+}
+
+.j{
+  width:200px;
+  height:110px;
+  margin-left:70px;
+}
+.l
+{
+  height:50px;
+  width:100px;
+justify-content: top;
+display:block;
+padding-left: 0%;
+margin-right:70px;
+}
+.button2 {
+  height:50px;
+  padding: 10px;
+  background-color: #4479b1;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:110px;
+  margin-left:0px;
+  transition: background-color 0.3s ease;
+  font-size:large;
+  margin-left:245px;
+  margin-top:26px;
+}
+
+.button2:hover {
+  background-color: #0056b3;
+}
+
+.button1
+{
+  height:50px;
+  padding: 10px;
+  background-color: #4479b1;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:110px;
+
+  transition: background-color 0.3s ease;
+  font-size:large;
+  margin-top:26px;
+  
+}
+
+.button1:hover {
+  background-color: #0056b3;
+}
+
+.contain {
+  max-width: 1200px;
+  margin:0 auto;
+  margin-left:5%;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+h1 {
+ 
+  color:rgb(58, 208, 242);
+  font-size:30px;
+ 
+ }
+ .jobhunt
+ {
+  text-decoration: none;
+ }
+  
+  .copyright
+{
+  background-color:transparent;
+  color:#ffffff;
+  align-items: center;
+  display: flex;
+  font-size:medium;
+  font-weight:200;
+  backdrop-filter: blur(20px);
+  flex-direction:column;
+  justify-content: center;
+  padding:15px;
+}
+
+#v{
+  font-size:17px;
+  margin-top:4px;
+  margin-bottom:9px;
+}
+
+
+
+
+
+.profile-container {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color:transparent;
+  margin-bottom:30px;
+  margin-left:220px;
+  
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+background-color: #efebeb;
+  
+}
+
+.profile-picture img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  margin-top:40px;
+  margin-left:50px;
+  backdrop-filter: blur(10px);
+
+}
+
+.add-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+margin-left:40px;
+
+}
+
+.add-icon img {
+  width: 100%;
+  height: 100%;
+}
